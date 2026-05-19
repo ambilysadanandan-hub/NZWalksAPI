@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
-using NZWalksAPI.Models.Domain;
 
 namespace NZWalksAPI.Data
 {
@@ -29,6 +28,7 @@ namespace NZWalksAPI.Data
             Name = "Reader",
             NormalizedName = "Reader".ToUpper()
         },
+
 
         new IdentityRole
         {
